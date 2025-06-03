@@ -26,14 +26,15 @@
                         _inputHandler.HandleOutput("It's a tie! Try again.");
                         break;
                     case GameResult.UserWin:
-                        _inputHandler.HandleOutput("You win! Congratulations!");
+                        _inputHandler.HandleOutput("Good work, you win!.");
                         break;
                     case GameResult.ComputerWin:
-                        _inputHandler.HandleOutput("You lose! Better luck next time.");
+                        _inputHandler.HandleOutput("Bad luck, computer wins.");
                         break;
                 }
                 result = _gameLogic.Play();
             }
+
             _inputHandler.HandleOutput("Thanks for playing! Goodbye!");
 
 

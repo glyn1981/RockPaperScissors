@@ -16,7 +16,8 @@ namespace RockPaperScissors
                 return string.Empty ;
             }
             input = input.Trim().ToLower();
-            if (input != "rock" && input != "paper" && input != "scissors")
+
+            if (input != "rock" && input != "paper" && input != "scissors"&& input != "exit")
             {
                 Console.WriteLine("Invalid input. Please enter Rock, Paper, or Scissors.");
                 return string.Empty;
