@@ -1,6 +1,4 @@
-### 📄 `README.md` for `RockPaperScissors`
 
-```markdown
 # RockPaperScissors ✊✋✌️
 
 A lightweight console version of Rock, Paper, Scissors in C#.
@@ -24,24 +22,25 @@ A lightweight console version of Rock, Paper, Scissors in C#.
 
 ```bash
 git clone https://github.com/glyn1981/RockPaperScissors.git
-
 cd RockPaperScissors
 dotnet run
-Choose your move (Rock, Paper, Scissors):
+```
+
+### Choose your move (Rock, Paper, Scissors):
 > Rock
 
 Computer chose: Scissors
 You win!
 
 
-⚙️ Technical Highlights
+### ⚙️ Technical Highlights
 Enum-based game state
 
 Basic game loop
 
 Randomized move generation for the computer
 
-🚀 Future Ideas
+### 🚀 Future Ideas
 Add score tracking and rounds
 
 Expand to Rock-Paper-Scissors-Lizard-Spock
@@ -50,5 +49,5 @@ Replay prompt after each round
 
 Add tests using xUnit or NUnit
 
-👨‍💻 Author
+### 👨‍💻 Author
 Glyn Johnston – GitHub Profile
