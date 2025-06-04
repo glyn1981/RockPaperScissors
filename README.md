@@ -1,21 +1,20 @@
 # NoughtsAndCrosses ❌⭕️
 
-A simple console-based implementation of Tic-Tac-Toe in C#, designed for two human players.
+A simple console-based implementation of Tic-Tac-Toe in C#, designed for one player agaisnt an AI opponent
 
 ## 🎮 Features
 
-- Two-player turn-based gameplay
 - Board display updates in real time
 - Win and draw detection
 - Simple clean structure using enums and arrays
 
 ## 🚀 Getting Started
 
-### Prerequisites
+## Prerequisites
 
 - [.NET SDK](https://dotnet.microsoft.com/download) (version 6 or later)
 
-### Run the Game
+## Run the Game
 
 1. Clone the repository:
 
@@ -37,6 +36,8 @@ dotnet run
 markdown
 Copy
 Edit
+
+
 Current board:
  1 | 2 | 3
 -----------
@@ -47,21 +48,16 @@ Current board:
 Player X, enter your move (1-9):
 🧠 Code Concepts
 Use of enums to represent board states
-
 Simple game loop and input validation
-
 Turn-switching logic
-
 Board win/draw checking
 
 💡 Possible Enhancements
-Add an AI opponent (minimax)
 
 Score tracking across rounds
-
 Input sanitization and better error messages
-
 GUI version (WPF or Blazor)
+Improved AI Oponnent, easy to defeat.
 
 👨‍💻 Author
 Glyn Johnston – GitHub Profile
