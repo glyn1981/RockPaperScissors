@@ -1,63 +1,54 @@
-# NoughtsAndCrosses ❌⭕️
+## 📄 `README.md` for `RockPaperScissors`
 
-A simple console-based implementation of Tic-Tac-Toe in C#, designed for one player agaisnt an AI opponent
+```markdown
+# RockPaperScissors ✊✋✌️
+
+A lightweight console version of Rock, Paper, Scissors in C#.
 
 ## 🎮 Features
 
-- Board display updates in real time
-- Win and draw detection
-- Simple clean structure using enums and arrays
+- Player vs Computer gameplay
+- Randomized AI moves
+- Clear game output and win/lose logic
+- Enum-driven design
 
 ## 🚀 Getting Started
 
-## Prerequisites
+### Prerequisites
 
 - [.NET SDK](https://dotnet.microsoft.com/download) (version 6 or later)
 
-## Run the Game
+### Run the Game
 
 1. Clone the repository:
 
-bash
-git clone https://github.com/glyn1981/NoughtsAndCrosses.git
-Navigate to the project folder:
+```bash
+git clone https://github.com/glyn1981/RockPaperScissors.git
 
-bash
-Copy
-Edit
-cd NoughtsAndCrosses
-Run the game:
-
-bash
-Copy
-Edit
+cd RockPaperScissors
 dotnet run
-📸 Screenshot Example
-markdown
-Copy
-Edit
+Choose your move (Rock, Paper, Scissors):
+> Rock
+
+Computer chose: Scissors
+You win!
 
 
-Current board:
- 1 | 2 | 3
------------
- 4 | X | 6
------------
- O | 8 | 9
+⚙️ Technical Highlights
+Enum-based game state
 
-Player X, enter your move (1-9):
-🧠 Code Concepts
-Use of enums to represent board states
-Simple game loop and input validation
-Turn-switching logic
-Board win/draw checking
+Basic game loop
 
-💡 Possible Enhancements
+Randomized move generation for the computer
 
-Score tracking across rounds
-Input sanitization and better error messages
-GUI version (WPF or Blazor)
-Improved AI Oponnent, easy to defeat.
+🚀 Future Ideas
+Add score tracking and rounds
+
+Expand to Rock-Paper-Scissors-Lizard-Spock
+
+Replay prompt after each round
+
+Add tests using xUnit or NUnit
 
 👨‍💻 Author
 Glyn Johnston – GitHub Profile
